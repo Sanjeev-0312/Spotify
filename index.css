@@ -1,0 +1,219 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: px solid black;
+}
+.screen{
+  background-color: rgb(23, 20, 20);
+}
+.navbar{
+  border: 0.px solid green;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  gap: 16px;
+}
+.home{
+  margin-top: 8px;
+  width: 39px;
+  border-radius: 170px;
+  background-color: rgb(168, 163, 163);
+}
+
+/* that place check the content  */
+
+.search{
+  display: flex; 
+  margin-left: 20px;
+  
+}
+.search-container {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #1C1C1C;
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: #FFFFFF;
+  font-size: 1rem;
+  outline: none;
+  padding: 0 15px;
+}
+
+.search-bar input::placeholder {
+  color: #AAAAAA;
+}
+
+.search-bar .search-icon {
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+
+#text{
+  width: 350px;
+  height: 35px;
+  border-radius: 34px;
+}
+.login-pages{
+  
+  word-spacing: 30px;
+  
+}
+.login{
+  justify-content: space-between;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.button{
+
+  font-weight: 700;
+  font-size: large;
+  border: 0px solid rgb(41, 32, 32);
+background-color: black;
+color: #e4e6ed;
+justify-content: space-around;
+}
+#button{
+
+  font-size: large;
+  font-weight: 900;
+  width: 75px;
+  background-color: white;
+  border-radius: 100px;
+}
+.input-search{
+  display: flex;
+  
+}
+.whole{
+  border: 2px solid black;
+
+}
+.container{
+  margin: 15px;
+  border: px solid black;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.left-side{
+  border: 0.5px solid grey;
+  width: 20%;
+  border-radius: 10px;
+}
+.right-side{
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  width: 80%;
+  color: aliceblue;
+}
+
+/* left side css */
+.nav{
+  border: 0.5px solid black;
+}
+.head{
+  border: 1px solid red;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  margin-top: 10px;
+}
+.button-left{
+  color: aliceblue;
+  
+  font-size: large;
+  font-weight: 900;
+}
+.add{
+  font-size: large;
+  font-weight: 900;
+  color: rgb(224, 236, 247);
+}
+.data-container{
+  border: 2px solid black;
+  border-radius: 7px;
+  justify-content: space-around;
+  column-gap: 10px;
+}
+.play{
+  font-weight: bold;
+  color: rgb(188, 181, 181);
+}
+.play-data{
+  border: 1px solid grey;
+  border-radius: 40px;
+  text-align: center;
+  font-size: large;
+  font-weight: 700;
+  background-color: #e4e6ed;
+  color: rgb(23, 13, 13);
+}
+
+.last{
+  font-size: larger;
+  font-weight: bold;
+
+}
+.head-ar{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.parents{
+  
+  border: px solid red;
+  display: flex;
+  justify-content: space-evenly;
+}
+.child{
+  border: 2px solid green;
+  height: 180px;
+  width: 180px;
+  border-radius: 150px;
+}
+.new{
+  margin-top: 190px;
+}
+.lower{
+  display: flex;
+  justify-content: space-between;
+}
+.popular{
+  font-size: larger;
+  font-weight: bolder;
+}
+.singles{
+  border: px solid grey;
+display: flex;
+justify-content: space-around;
+}
+.pop{
+  border: 1px solid green;
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
